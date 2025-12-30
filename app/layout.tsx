@@ -8,9 +8,8 @@ const _geist = Geist({ subsets: ["latin"] })
 const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "voxlis.NET",
-  description: "Built for you. Executed by you. Powered by Voxlis.",
-    generator: 'v0.app'
+  title: "execute.voxlis.NET",
+  description: "Your user experience matters to us."
 }
 
 export default function RootLayout({
