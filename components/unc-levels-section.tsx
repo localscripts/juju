@@ -195,21 +195,15 @@ export function UncLevelsSection() {
                 <Terminal size={18} />
                 Next
               </Button>
-              <a
-                href={`https://sunc.rubis.app/?scrap=${suncConfig.widget.scrapId}&key=${suncConfig.widget.key}`}
-                target="_blank"
-                rel="noopener noreferrer"
+              <Button
+                size="lg"
+                variant="outline"
+                className="border-border text-foreground bg-transparent cursor-not-allowed pointer-events-none opacity-70 w-full sm:w-auto"
               >
-                <Button
-                  size="lg"
-                  variant="outline"
-                  className="border-border text-foreground bg-transparent cursor-pointer hover:bg-transparent hover:text-foreground w-full sm:w-auto"
-                >
-                  <span className="font-bold">
-                    <span className="text-[#2dd4bf]">s</span>UNC
-                  </span>
-                </Button>
-              </a>
+                <span className="font-bold">
+                  <span className="text-[#2dd4bf]">s</span>UNC
+                </span>
+              </Button>
             </div>
           </div>
 
